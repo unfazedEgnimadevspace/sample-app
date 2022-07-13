@@ -1,0 +1,9 @@
+<%= provide(:title, "Home")%>
+
+
+<% if logged_in? %>
+  <%= render "shared/homepage1" %>
+<% else %>
+  <%= render "shared/homepage2" %>
+
+<% end %>  
