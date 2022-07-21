@@ -166,6 +166,7 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.6-x86_64-linux)
       racc (~> 1.4)
+    pg (1.4.1)
     popper_js (2.9.3)
     psych (3.3.2)
     public_suffix (4.0.7)
@@ -289,6 +290,7 @@ DEPENDENCIES
   jbuilder
   jquery-rails
   mini_magick (~> 4.5, >= 4.5.1)
+  pg
   psych (< 4)
   puma (~> 5.0)
   rails (~> 7.0.2, >= 7.0.2.4)
